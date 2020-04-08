@@ -16,7 +16,7 @@ class ByDemo():
         elementByXpath = driver.find_element(By.XPATH, "//input[@id='displayed-text']")
 
         if elementByXpath is not None:
-            print("We found an element by XPATH")
+            print("We found an element by XPATH and class")
 
         elementByLinkText = driver.find_element(By.LINK_TEXT, "Login")
 

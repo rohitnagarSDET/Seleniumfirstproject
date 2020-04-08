@@ -24,7 +24,7 @@ class LoginTests():
 
         userIcon = driver.find_element(By.XPATH, ".//*[@id='navbar']//span[text()='User Settings']")
         if userIcon is not None:
-            print("Login Successful")
+            print("Login Successful first time")
         else:
             print("Login Failed")
 

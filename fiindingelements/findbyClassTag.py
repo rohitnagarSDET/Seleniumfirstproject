@@ -8,7 +8,7 @@ class FindByClassTag():
         driver.get(baseUrl)
 
         elementByClassName = driver.find_element_by_class_name("displayed-class")
-        elementByClassName.send_keys("Testing The Element by class")
+        elementByClassName.send_keys("Testing The Element by class Testing Github")
 
         if elementByClassName is not None:
             print("We found an element by Class Name")
